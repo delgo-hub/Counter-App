@@ -6,7 +6,7 @@ const btnsEl = document.querySelectorAll(".btn");
 //variables
 let count = 0;
 
-//click events
+//click event
 for (let i = 0; i < btnsEl.length; i++) {
     btnsEl[i].addEventListener("click", () => {
         if (btnsEl[i].textContent === "Decrease" && count !== 0) {
